@@ -1,0 +1,77 @@
+SETTING UP C# DEVELOPMENT ENVIRONMENT USING VISUAL STUDIO (MICROSOFT)
+=======================================================================
+
+This guide explains how to set up a C# development environment using
+Microsoft Visual Studio, so you can start building and running C#
+console/OOP projects.
+
+-----------------------------------------------------------------------
+1. DOWNLOAD VISUAL STUDIO
+-----------------------------------------------------------------------
+- Go to the official Microsoft Visual Studio website:
+  https://visualstudio.microsoft.com/downloads/
+- Download the "Community" edition (free for students and individuals).
+
+-----------------------------------------------------------------------
+2. INSTALL VISUAL STUDIO
+-----------------------------------------------------------------------
+- Run the downloaded installer.
+- In the "Workloads" tab, select:
+  ".NET desktop development"
+  (This installs the C# compiler, .NET SDK, and related tools.)
+- Click "Install" and wait for the setup to complete.
+- Restart your computer if prompted.
+
+-----------------------------------------------------------------------
+3. CREATE YOUR FIRST C# PROJECT
+-----------------------------------------------------------------------
+- Open Visual Studio.
+- Click "Create a new project".
+- Search for "Console App" (make sure it says C#, not C++ or VB).
+- Select it and click "Next".
+- Enter a Project Name (e.g., "assignment").
+- Choose a location on your computer to save the project.
+- Click "Create".
+
+-----------------------------------------------------------------------
+4. VERIFY THE SETUP
+-----------------------------------------------------------------------
+- Visual Studio will generate a default Program.cs file.
+- Replace its content with:
+
+  using System;
+
+  class Program
+  {
+      static void Main(string[] args)
+      {
+          Console.WriteLine("Hello, C#!");
+      }
+  }
+
+- Click "Start" (green play button) or press F5 to run the project.
+- If it prints "Hello, C#!" in the console, your environment is set
+  up correctly.
+
+-----------------------------------------------------------------------
+5. GIT & GITHUB SETUP (OPTIONAL BUT RECOMMENDED)
+-----------------------------------------------------------------------
+- Install Git from: https://git-scm.com/downloads
+- In Visual Studio, go to the "Git" menu to create a repository,
+  commit changes, and push to GitHub directly from the IDE.
+- Alternatively, use the command line:
+
+  git init
+  git add .
+  git commit -m "Initial commit: environment setup"
+  git branch -M main
+  git remote add origin <your-repo-url>
+  git push -u origin main
+
+-----------------------------------------------------------------------
+NOTES
+-----------------------------------------------------------------------
+- Visual Studio (this guide) is different from Visual Studio Code.
+  Visual Studio is a full IDE best suited for C#/.NET projects.
+- Make sure you have an active internet connection during installation,
+  as components are downloaded from Microsoft's servers.

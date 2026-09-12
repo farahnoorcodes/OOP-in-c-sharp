@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{46AB1727-C6D6-48C4-BDD2-FBF80A94FC70}</ProjectGuid>
+    <ProjectGuid>{5CEB810A-D8DA-4E3E-8F8E-31E8A3E40523}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>explicit_type_conversion</RootNamespace>
-    <AssemblyName>explicit type conversion</AssemblyName>
+    <RootNamespace>task_1</RootNamespace>
+    <AssemblyName>task 1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
